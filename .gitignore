@@ -1,0 +1,20 @@
+# Foundry
+out/
+cache/
+broadcast/
+lib/
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Frontend
+frontend/node_modules
+frontend/.next
+frontend/.env.local
+frontend/AGENTS.md
+frontend/CLAUDE.md
+
+# macOS
+.DS_Store
